@@ -1,0 +1,28 @@
+/*Signup CSS */
+.body {
+  background-color: #dbf4e1;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-light:hover {
+  transform: scale(1.1); /* Slightly enlarge the button */
+  transition: transform 0.3s ease-in-out;
+  color:green;
+}
+.cards{
+margin:20px 70px;
+}
+.signup-img{
+    height: 400px;
+    width: 300px;
+}
+
+
+{/* Login CSS */}
+.login-img{
+    height: 300px;
+    width: 300px;
+}
