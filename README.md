@@ -40,7 +40,7 @@ GreenCart is a full-stack e-commerce web application designed for an eco-friendl
 ## Installation & Setup
 ### Prerequisites
 Ensure you have the following installed:
-- Node.js & npm (for frontend)
+- React.js & npm (for frontend)
 - Java 17+ & Maven (for backend)
 - PostgreSQL (for database)
 
@@ -85,23 +85,20 @@ Ensure you have the following installed:
 ### User Authentication
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| POST   | /auth/signup | Register a new user |
-| POST   | /auth/login  | Authenticate user |
+| POST   | /register/signup | Register a new user |
+| POST   | /register/login  | Authenticate user |
 
 ### Product Management
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| GET    | /products | Get all products |
-| GET    | /products/{id} | Get product by ID |
-| POST   | /products | Add a new product (Admin) |
-| PUT    | /products/{id} | Update product (Admin) |
-| DELETE | /products/{id} | Delete product (Admin) |
+| GET    | /fetch | Get all products |
+| POST   | /add | Add a new product (Admin) |
 
 ### Order Management
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| POST   | /orders | Create an order |
-| GET    | /orders/user/{userId} | Get user orders |
+| POST   | /orders/add | Create an order |
+| GET    | /orders/fetch | Get user orders |
 
 ---
 
